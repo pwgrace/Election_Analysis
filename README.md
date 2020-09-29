@@ -34,5 +34,5 @@
 #### The script can similarly be changed in line 11 to print the results to a new text file:
 
 ~~~~~~~~~~~~~~~~~~~~~
-'py <file_to_save = os.path.join("analysis", "election_results.txt")>'
+'<file_to_save = os.path.join("analysis", "election_results.txt")>'
 ~~~~~~~~~~~~~~~~~~~~~
