@@ -23,4 +23,12 @@
 #### Winning Vote Count: 272,892
 #### Winning Percentage: 73.8%
 ## Election-Audit Summary
-### This script can be used to determine the same election results as above for future elections given that the data are in the same format. The data will need to be in a csv file and contain 3 columns in this order: Ballot ID, County, and Candidate. 
+### This script can be used to determine the same election results as above for future elections given that the data are in the same format. The data will need to be in a csv file and contain 3 columns in this order: Ballot ID, County, and Candidate.
+### Modifying the Script
+#### The script can be altered in line 9: 
+
+~~~~~~~~~~~~~~~~~~~~~
+<file_to_load=os.path.join("Resources","election_results.csv")>'
+~~~~~~~~~~~~~~~~~~~~~
+<file_to_load=os.path.join("Resources","election_results.csv")>' to reference the new the input data. 
+#### The script can similarly be changed in line 11 'py <file_to_save = os.path.join("analysis", "election_results.txt")>' to print the results to a new text file. 
